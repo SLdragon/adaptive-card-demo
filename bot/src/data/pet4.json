@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "name": "Coco",
+  "category": {
+    "id": 2,
+    "name": "Cats"
+  },
+  "photoUrls": [
+    "https://github.com/SLdragon/images/raw/master/4.png"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

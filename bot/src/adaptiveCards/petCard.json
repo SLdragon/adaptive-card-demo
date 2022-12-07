@@ -1,0 +1,63 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+      {
+          "type": "TextBlock",
+          "size": "Medium",
+          "weight": "Bolder",
+          "text": "Pet Information Card"
+      },
+      {
+          "type": "ColumnSet",
+          "columns": [
+              {
+                  "type": "Column",
+                  "items": [
+                      {
+                          "type": "Image",
+                          "style": "Person",
+                          "url": "${photoUrls[0]}",
+                          "size": "Medium"
+                      }
+                  ],
+                  "width": "auto"
+              },
+              {
+                  "type": "Column",
+                  "items": [
+                      {
+                          "type": "TextBlock",
+                          "weight": "Bolder",
+                          "text": "Name: ${name}",
+                          "wrap": true
+                      },
+                      {
+                          "type": "TextBlock",
+                          "spacing": "None",
+                          "text": "Id: ${id}",
+                          "isSubtle": true,
+                          "wrap": true
+                      },
+                      {
+                          "type": "TextBlock",
+                          "spacing": "None",
+                          "text": "Status: ${status}",
+                          "isSubtle": true,
+                          "wrap": true
+                      },
+                      {
+                          "type": "TextBlock",
+                          "spacing": "None",
+                          "text": "Category: ${category.name}",
+                          "isSubtle": true,
+                          "wrap": true
+                      }
+                  ],
+                  "width": "stretch"
+              }
+          ]
+      }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}

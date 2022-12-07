@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "name": "Kitty",
+  "category": {
+    "id": 2,
+    "name": "Cats"
+  },
+  "photoUrls": [
+    "https://github.com/SLdragon/images/raw/master/3.png"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "sold"
+}

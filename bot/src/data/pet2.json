@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "name": "Max",
+  "category": {
+    "id": 1,
+    "name": "Dogs"
+  },
+  "photoUrls": [
+    "https://github.com/SLdragon/images/raw/master/2.png"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "sold"
+}

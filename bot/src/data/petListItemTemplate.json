@@ -1,0 +1,36 @@
+{
+  "type": "ColumnSet",
+  "columns": [
+    {
+      "type": "Column",
+      "items": [
+        {
+          "type": "Image",
+          "style": "Person",
+          "url": "${imageUrl}",
+          "size": "small"
+        }
+      ],
+      "width": "auto"
+    },
+    {
+      "type": "Column",
+      "items": [
+        {
+          "type": "TextBlock",
+          "weight": "Bolder",
+          "text": "Name: ${name}, Id: ${id}",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "spacing": "None",
+          "text": "Status: ${status}",
+          "isSubtle": true,
+          "wrap": true
+        }
+      ],
+      "width": "stretch"
+    }
+  ]
+}

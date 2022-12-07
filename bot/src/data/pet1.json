@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "Doggie",
+  "category": {
+    "id": 1,
+    "name": "Dogs"
+  },
+  "photoUrls": [
+    "https://github.com/SLdragon/images/raw/master/1.png"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
